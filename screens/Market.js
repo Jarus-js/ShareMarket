@@ -1,11 +1,11 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
-const Home = () => {
+const Market = () => {
   return (
     <View style={styles.container}>
       <View style={styles.wrapper}>
-        <Text style={{color: 'red'}}>Home</Text>
+        <Text style={{color: 'red'}}>Market</Text>
       </View>
     </View>
   );
@@ -21,4 +21,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Home;
+export default Market;
